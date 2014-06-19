@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>戦力外・樋爪のポートフォリオサイト</title>
+<link rel='stylesheet' href='form.css' />
+
+</head>
+
+<body>
+<div id="menu">
+	<ul>
+		<div id="haji"><li><a href="index4.html">・問い合わせ</a></li></div>
+		<li><a href="index5.html">・作品</a></li>
+		<li><a href="index2.html">・自己紹介</a></li>
+		<li><a href="index.html">・HOME</a></li>
+	</ul>
+	</div>
+    <form action="index8.html"  id="formmail">  
+    <input type="hidden" name="need" value="email 性別 ページ" />  
+    <input type="hidden" name="match" value="email email2" />  
+    <dl>  
+    <dt>名前/会社名/団体名<span>(必須)</span><br>
+    <input type="text" name="name" size="35" /></dt>        
+    <dd>メールアドレス<span>(必須)</span><br>
+    <input type="text" name="email" size="35" /></dd>          
+    <dt>メールアドレス<span>(再度入力/必須)</span><br>
+   	<input type="text" name="email2" size="35" /></dt>          
+    <dd>性別<span>(必須)</span> <br>
+    <input type="radio" name="性別" value="男" />男　  
+    <input type="radio" name="性別" value="女" />女　
+    <input type="radio" name="性別" value="？" />分からない  
+  
+    </dd>          
+    <dt>戦力外なページ <br>
+    <input type="checkbox" name="ページ" value="HOME" />HOME　  
+    <input type="checkbox" name="ページ" value="自己紹介" />自己紹介　  
+    <input type="checkbox" name="ページ" value="作品" />作品　
+    <input type="checkbox" name="ページ" value="戦力外" />そもそも性別が分からない　  
+    </dt>  
+    <dd>メッセージ<br>    
+    <p><textarea name="メッセージ" rows="6" cols="40"></textarea></p>  
+    <input type="submit" value="送信する" /"<input type="reset" value="リセット" />  
+    </dd>  
+    </dl>  
+    </form>  </body>
+</html>

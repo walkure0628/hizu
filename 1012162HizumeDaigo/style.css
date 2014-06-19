@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color: #333631; 
+	color: #ffffff;        
+    font-size:67.8px; 
+	font-family:'Lucida Grande',
+ 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',
+ Meiryo, メイリオ, sans-serif;
+
+}
+ 	p.example1 {
+		 font-size:67.8px; 
+		  }
+
+    div#wrapperBox  {  
+		background-color: #fffff; 
+        width: 1900px; 
+        background-image:url(hiz.jpg); 
+        background-repeat: no-repeat; 
+	    background-position:right;
+    }  
+   
+    div#headerBox   {  
+        width: 950px; 
+		height: 450px; 
+        padding: 10px 15px; 
+        font-size:67.8px; 
+        margin-left: 250px;  
+
+    }   
+  
+    div#footerBox   { 
+		float: left;
+        width: 602px; 
+		height:500px; 
+        padding: 5px 15px;  
+        color: #ffffff;
+
+
+    }  
+	#footerBox:hover{
+		padding: 5px 15px;  
+		background-color:#ffffff;
+        color: #333631;
+	}
+	 div#tooterBox   { 
+		float: left;
+        width: 602px;  
+		height:500px; 
+        padding: 5px 15px;  
+    	color: #ffffff;
+    }  
+	#tooterBox:hover{
+		padding: 5px 15px;  
+		background-color:#ffffff;
+        color: #333631;
+	}
+	 div#pooterBox   { 
+		float: left;
+        width: 602px;  
+		height:500px; 
+        padding: 5px 15px;  
+    	color: #ffffff;
+    }  
+	#pooterBox:hover{
+		padding: 5px 15px;  
+        background-color:#ffffff;
+        color: #333631;
+	}
+	div#fontd   {
+		position: relative;
+		top: 130px;
+	}
